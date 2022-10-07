@@ -1,6 +1,6 @@
-package com.brihaspathee.zeus.web.impl;
+package com.brihaspathee.zeus.web.resource.impl;
 
-import com.brihaspathee.zeus.web.interfaces.WelcomeAPI;
+import com.brihaspathee.zeus.web.resource.interfaces.WelcomeAPI;
 import com.brihaspathee.zeus.web.model.WelcomeDto;
 import com.brihaspathee.zeus.web.response.ZeusApiResponse;
 import lombok.RequiredArgsConstructor;
