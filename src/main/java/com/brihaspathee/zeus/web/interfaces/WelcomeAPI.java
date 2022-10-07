@@ -19,5 +19,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Validated
 public interface WelcomeAPI {
 
+    /**
+     * A welcome endpoint to check for connectivity
+     * @return
+     */
     ResponseEntity<ZeusApiResponse<WelcomeDto>> getWelcomeMessage();
 }
